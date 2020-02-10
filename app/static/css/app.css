@@ -1,3 +1,56 @@
 body {
     padding-top: 5rem;
 }
+
+.card {
+	width:500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color:green;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius:5px;
+  color: white;
+}
+
+.bottom{
+	background-color:white;
+    color: grey;
+    }
+ .top{
+ 	color: white;
+    padding-top:5px;
+ }
+.photo{
+	padding-left:170px;
+	
+    }
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+img {
+  border-radius: 50%;
+  image-rendering: pixelated;
+  width:200px;
+  
+}
+
+.val,.lab{
+	word-spacing: 50px;
+
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}

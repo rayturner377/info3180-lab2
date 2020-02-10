@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block main %}
+<div class= "card"> <!--Profile Card-->
+    <div><!--Top Half-->
+        <div> <!--Picture-->
+            <img src="{{img}}" alt={{ name }}  />
+        </div>
+        <h1>{{name}}</h1>
+        <p>{{username}}</p>
+        <p></p>{{location}}
+        <p></p>{{date}}
+    </div>
+    <div class="bottom"><!--Bottom half-->
+        <div class = "bio">
+            <p>{{bio}}</p>
+        </div>
+
+        <div class = "val">
+            {{posts}}
+            {{following}}
+            {{followers}}
+        </div>
+        <div class = "lab">
+            
+            Posts
+            Following
+            Followers
+        </div>
+                
+        <button type="button">Follow</button>
+
+    </div>
+</div>
+{% endblock %}
